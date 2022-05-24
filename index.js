@@ -20,6 +20,9 @@
         if (e.classList.contains('btn-del')) this.delDate(e);
         if (e.classList.contains('btn-modify')) this.modifyDate(e);
     }
+    static(){
+        this.name='zs'
+    }
     findTr(e) {
         // console.log(e);
         if (e.nodeName == "TR") {
