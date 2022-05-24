@@ -1,5 +1,6 @@
  class Problem {
     constructor() {
+		this.$('');
         // console.log(this.saveData);
         // 获取保存按钮，绑定点击事件
         this.$('.save-date').addEventListener('click', this.saveData);
