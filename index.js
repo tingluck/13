@@ -1,4 +1,4 @@
- class Problem {
+ export default class Problem {
     constructor() {
         // console.log(this.saveData);
         // 获取保存按钮，绑定点击事件
